@@ -1,0 +1,77 @@
+body{
+    background: linear-gradient(
+        to right,
+         rgba(200, 107, 142, 1),
+         rgba(218, 105, 250, 1),
+         rgba(110, 125, 253, 1))
+}
+.satu{
+    height: 200px;
+}
+.dua{
+    display: block;
+    height: auto;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.dua h3 {text-align: center;}
+.satu h1{
+    text-align: center;
+}
+#img{ height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 50%;
+}
+.utama  {display: flex;
+    justify-content: center;
+    padding: 10px;}
+#article1 {
+        width: 300px;
+        padding: 20px;
+        text-align: center;
+        font-family: 'Licorice', cursive;
+        font-family: 'The Nautigal', cursive;
+ 
+    }
+#article2 {
+        width: 300px;
+        padding: 20px;
+        text-align: center;
+        font-family: 'Licorice', cursive;
+        font-family: 'The Nautigal', cursive;
+
+    }
+#article3 {
+        width: 300px;
+        padding: 20px;
+        text-align: center;
+        font-family: 'Licorice', cursive;
+        font-family: 'The Nautigal', cursive;
+
+    }
+#article4 {
+        width: 300px;
+        padding: 20px;
+        text-align: center;
+        font-family: 'Licorice', cursive;
+        font-family: 'The Nautigal', cursive;
+ 
+    }
+#article2 ul{
+    display: inline-block;
+    text-align: left;
+}
+#article3 ol{
+    display: inline-block;
+    text-align: left;
+}
+#article1 p, #article2 ul, #article3 ol, #article4 table{
+    font-family: 'Times New Roman', Times, serif;
+}
+#article1 h3, #article2 h3, #article3 h3, #article4 h3{
+    font-size: 40px;
+}
