@@ -1,0 +1,35 @@
+
+      body {
+        margin: 0px;
+        font-family: "Crimson", serif;
+        font-family: "Roboto Slab", serif;
+    }
+    
+    .img{
+        
+        display: flex;
+        width: auto;
+        height: 300px;
+        
+    
+    }
+    
+    .jumbotron {
+        background-image: url(https://images.unsplash.com/photo-1501601272-832bbe9acb52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+        background-size: cover;
+        height: auto;
+    
+    }
+    
+    .btn-secondary {
+        background-color: darkgrey;
+        border-radius: 10px;
+        box-shadow: 0px 2px 2px black !important;
+    }
+    .btn-secondary :hover {
+        background-color: rgb(238, 235, 235);
+    }
+    .footer {
+        line-height: 50px;
+        margin-bottom: 0;
+    }
