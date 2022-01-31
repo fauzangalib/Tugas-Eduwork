@@ -17,27 +17,31 @@
         var p1 =prompt ("Player 1 : masukan angka")
         var p2 =prompt ("Player 2 : masukan angka")
         var randomNumber = Math.floor(Math.random() * 3) + 1;
-        if (p2==p1){
-            alert("Angka tidak boleh sama")
+        if (isNaN(p1)){
+            alert("Harap Masukan Angka"),ronde--;
+        }else if (isNaN(p2)){
+            alert("HHarap Masukan Angka"),ronde--;
+        }else if (p2==p1){
+            alert("Angka tidak boleh sama"),ronde--;
         }else if (p2>3){
-            alert("Angka tidak boleh lebih dari 3")
+            alert("Angka tidak boleh lebih dari 3"),ronde--;
         }else if (p1>3){
-            alert("Angka tidak boleh lebih dari 3")
+            alert("Angka tidak boleh lebih dari 3"),ronde--;
         }else if (p2==""){
-            alert("Salah satu player tidak menjawab")
+            alert("Salah satu player tidak menjawab"),ronde--;
         }else if (p1==""){
-            alert("Salah satu player tidak menjawab")
+            alert("Salah satu player tidak menjawab"),ronde--;
         }else if (p2<1){
-            alert("Angka tidak boleh kurang dari 1")
+            alert("Angka tidak boleh kurang dari 1"),ronde--;
         }else if (p1<1){
-            alert("Angka tidak boleh kurang dari 1")
+            alert("Angka tidak boleh kurang dari 1"),ronde--;
         }else if (p1==randomNumber){
             alert("player 1 win")
             player1Score++;
         }else if (p2==randomNumber){
             alert("player 2 win")
             player2Score++;
-        }else alert("Hasil Seri")
+        }else alert("Hasil Seri"),ronde--;
         alert("Nilai yang dicari: "+randomNumber+"\n-----------------------\n-player1: "+player1Score+"\n-player2: "+player2Score)
  
         }
